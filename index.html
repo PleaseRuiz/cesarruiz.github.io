@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar Ruiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FAF8F5;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            color: #4a4a4a;
+            font-weight: 400;
+            line-height: 1.8;
+            padding: 80px 40px;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 16px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 40px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 50px;
+            letter-spacing: -0.8px;
+            color: #2c2c2c;
+        }
+
+        .bio {
+            font-size: 18px;
+        }
+
+        .bio p {
+            margin-bottom: 32px;
+        }
+
+        .links {
+            margin-top: 48px;
+            display: flex;
+            gap: 28px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .links a {
+            color: #2c2c2c;
+            text-decoration: none;
+            font-size: 18px;
+            border-bottom: 1.5px solid #2c2c2c;
+            padding-bottom: 2px;
+            transition: all 0.2s ease;
+        }
+
+        .links a:hover {
+            color: #b87333;
+            border-bottom-color: #b87333;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 50px 28px;
+            }
+
+            .photo {
+                width: 140px;
+                height: 140px;
+                margin: 0 auto 40px;
+            }
+
+            h1 {
+                font-size: 36px;
+                margin-bottom: 40px;
+                letter-spacing: -0.6px;
+            }
+
+            .bio {
+                font-size: 17px;
+            }
+
+            .bio p {
+                margin-bottom: 28px;
+            }
+
+            .links {
+                margin-top: 40px;
+                gap: 24px;
+            }
+
+            .links a {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="photo.jpg" alt="Cesar Ruiz" class="photo">
+
+        <h1>cesar ruiz</h1>
+
+        <div class="bio">
+            <p>hi, if you're here i'm guessing you are probably looking for some more info about me (not to be presumptive, but you kind of are on cesarruiz.com)</p>
+
+            <p>i am allergic to professional credential dropping and resume bullet gloating so if you're looking for that, the closest thing you'll find is on the linkedin button below</p>
+
+            <p>if you got my query letter and this is how you ended up here, first off: i'm deeply grateful you're taking the time to learn more about me!</p>
+
+            <p>i grew up in a small town in northern california next to a lake, and now live by another one in oakland. i've been a one-time (for now???) political organizer, a former (hopefully forever) social media integrity person, and a perennially disappointed cal football fan (which is its own form of character building). i walk a lot, write even more, and most sundays can be found carrying home a bundle of trader joe's flowers that i'll proceed to badly arrange in my kitchen</p>
+
+            <p>if you're EXTRA confused because you're looking for (or are) the nfl football player, have your people call my people</p>
+        </div>
+
+        <div class="links">
+            <a href="https://instagram.com/pleaseruiz" target="_blank" rel="noopener noreferrer">instagram</a>
+            <a href="https://bsky.app/profile/cesarruiz.com" target="_blank" rel="noopener noreferrer">bluesky</a>
+            <a href="https://linkedin.com/in/cesruiz" target="_blank" rel="noopener noreferrer">linkedin</a>
+        </div>
+    </div>
+</body>
+</html>
